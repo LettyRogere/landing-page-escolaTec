@@ -155,30 +155,35 @@ button:hover{
 
     /* Carousel */
 
-        #carousel{
-        padding: 20px;
-    }
-
     #div-card{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
+        gap: 15px;
     }
 
     .card{
-        margin: 0;
         width: 90%;
-        max-width: 320px;
+        max-width: 300px;
+        margin: 0;
     }
 
-    .card img{
-        width: 100%;
+    .card{
         height: auto;
     }
 
     .seta{
         width: 35px;
-        margin: 15px 10px 0;
+        cursor: pointer;
+        margin-top: 10px;
+        order: 2;
+    }
+
+    #leonardo,
+    #samanta,
+    #bruna{
+        order: 1;
     }
 
     #setas{
