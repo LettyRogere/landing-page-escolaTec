@@ -171,4 +171,33 @@ button:hover{
     .seta{
         display: none;
     }
+
+    /* video */
+
+        #video-session{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #video{
+        margin: 0;
+        width: 100%;
+    }
+
+    #video iframe{
+        width: 100%;
+        max-width: 100%;
+        height: 220px;
+    }
+
+    #title-video{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #video-session p{
+        text-align: center;
+    }
 }
