@@ -4,7 +4,7 @@ var Bruna = window.document.getElementById("bruna")
 var SetaD = window.document.getElementById("seta-d")
 var SetaE = window.document.getElementById("seta-e")
 
-function RolarParaDireita(){
+/*function RolarParaDireita(){
     Leonardo.style = "display: none"
     Bruna.style = "display: flex"
     SetaD.style = "display: none"
@@ -16,4 +16,20 @@ function RolarParaEsquerda(){
     Bruna.style = "display: none"
     SetaD.style = "display: flex"
     SetaE.style = "display: none"
+}*/
+
+function RolarParaDireita() {
+    Leonardo.style.display = "none";
+    Bruna.style.display = "block";
+
+    SetaD.style.display = "none";
+    SetaE.style.display = "block";
+}
+
+function RolarParaEsquerda() {
+    Leonardo.style.display = "block";
+    Bruna.style.display = "none";
+
+    SetaD.style.display = "block";
+    SetaE.style.display = "none";
 }
