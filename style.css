@@ -176,8 +176,8 @@ button:hover{
     .seta{
         width: 35px;
         cursor: pointer;
-        margin-top: 10px;
         order: 2;
+        color: #FFF
     }
 
     #leonardo,
